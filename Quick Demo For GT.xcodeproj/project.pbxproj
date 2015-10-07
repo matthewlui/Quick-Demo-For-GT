@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		794072F91BC3931E003B0150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794072F81BC3931E003B0150 /* AppDelegate.swift */; };
-		794072FB1BC3931E003B0150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794072FA1BC3931E003B0150 /* ViewController.swift */; };
+		794072FB1BC3931E003B0150 /* TheMenuTransitioningDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794072FA1BC3931E003B0150 /* TheMenuTransitioningDemo.swift */; };
 		794072FE1BC3931E003B0150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794072FC1BC3931E003B0150 /* Main.storyboard */; };
 		794073001BC3931E003B0150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794072FF1BC3931E003B0150 /* Assets.xcassets */; };
-		794073031BC3931E003B0150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794073011BC3931E003B0150 /* LaunchScreen.storyboard */; };
 		7940730E1BC3931E003B0150 /* Quick_Demo_For_GTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940730D1BC3931E003B0150 /* Quick_Demo_For_GTTests.swift */; };
 		794073191BC3931E003B0150 /* Quick_Demo_For_GTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794073181BC3931E003B0150 /* Quick_Demo_For_GTUITests.swift */; };
+		7940732E1BC4A1E1003B0150 /* QuickUISketch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7940732D1BC4A1E1003B0150 /* QuickUISketch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		794073351BC4A1E1003B0150 /* QuickUISketch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */; settings = {ASSET_TAGS = (); }; };
+		7940733C1BC4A1E1003B0150 /* QuickUISketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940733B1BC4A1E1003B0150 /* QuickUISketchTests.swift */; };
+		794073401BC4A1E2003B0150 /* QuickUISketch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */; };
+		794073411BC4A1E2003B0150 /* QuickUISketch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7940734A1BC4A208003B0150 /* QuickImageSketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794073491BC4A208003B0150 /* QuickImageSketchView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +36,49 @@
 			remoteGlobalIDString = 794072F41BC3931E003B0150;
 			remoteInfo = "Quick Demo For GT";
 		};
+		794073361BC4A1E1003B0150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794072ED1BC3931E003B0150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7940732A1BC4A1E1003B0150;
+			remoteInfo = QuickUISketch;
+		};
+		794073381BC4A1E1003B0150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794072ED1BC3931E003B0150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794072F41BC3931E003B0150;
+			remoteInfo = "Quick Demo For GT";
+		};
+		7940733E1BC4A1E2003B0150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794072ED1BC3931E003B0150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7940732A1BC4A1E1003B0150;
+			remoteInfo = QuickUISketch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		794073471BC4A1E2003B0150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				794073411BC4A1E2003B0150 /* QuickUISketch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		794072F51BC3931E003B0150 /* Quick Demo For GT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Demo For GT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794072F81BC3931E003B0150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		794072FA1BC3931E003B0150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794072FA1BC3931E003B0150 /* TheMenuTransitioningDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMenuTransitioningDemo.swift; sourceTree = "<group>"; };
 		794072FD1BC3931E003B0150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		794072FF1BC3931E003B0150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		794073021BC3931E003B0150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		794073041BC3931E003B0150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794073091BC3931E003B0150 /* Quick Demo For GTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Demo For GTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7940730D1BC3931E003B0150 /* Quick_Demo_For_GTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Demo_For_GTTests.swift; sourceTree = "<group>"; };
@@ -47,6 +86,13 @@
 		794073141BC3931E003B0150 /* Quick Demo For GTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick Demo For GTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794073181BC3931E003B0150 /* Quick_Demo_For_GTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Demo_For_GTUITests.swift; sourceTree = "<group>"; };
 		7940731A1BC3931E003B0150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickUISketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7940732D1BC4A1E1003B0150 /* QuickUISketch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickUISketch.h; sourceTree = "<group>"; };
+		7940732F1BC4A1E1003B0150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794073341BC4A1E1003B0150 /* QuickUISketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickUISketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7940733B1BC4A1E1003B0150 /* QuickUISketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickUISketchTests.swift; sourceTree = "<group>"; };
+		7940733D1BC4A1E1003B0150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794073491BC4A208003B0150 /* QuickImageSketchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickImageSketchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794073401BC4A1E2003B0150 /* QuickUISketch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +118,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		794073271BC4A1E1003B0150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794073311BC4A1E1003B0150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794073351BC4A1E1003B0150 /* QuickUISketch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +142,8 @@
 				794072F71BC3931E003B0150 /* Quick Demo For GT */,
 				7940730C1BC3931E003B0150 /* Quick Demo For GTTests */,
 				794073171BC3931E003B0150 /* Quick Demo For GTUITests */,
+				7940732C1BC4A1E1003B0150 /* QuickUISketch */,
+				7940733A1BC4A1E1003B0150 /* QuickUISketchTests */,
 				794072F61BC3931E003B0150 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +154,8 @@
 				794072F51BC3931E003B0150 /* Quick Demo For GT.app */,
 				794073091BC3931E003B0150 /* Quick Demo For GTTests.xctest */,
 				794073141BC3931E003B0150 /* Quick Demo For GTUITests.xctest */,
+				7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */,
+				794073341BC4A1E1003B0150 /* QuickUISketchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				794072F81BC3931E003B0150 /* AppDelegate.swift */,
-				794072FA1BC3931E003B0150 /* ViewController.swift */,
+				794072FA1BC3931E003B0150 /* TheMenuTransitioningDemo.swift */,
 				794072FC1BC3931E003B0150 /* Main.storyboard */,
 				794072FF1BC3931E003B0150 /* Assets.xcassets */,
-				794073011BC3931E003B0150 /* LaunchScreen.storyboard */,
 				794073041BC3931E003B0150 /* Info.plist */,
 			);
 			path = "Quick Demo For GT";
@@ -125,7 +190,37 @@
 			path = "Quick Demo For GTUITests";
 			sourceTree = "<group>";
 		};
+		7940732C1BC4A1E1003B0150 /* QuickUISketch */ = {
+			isa = PBXGroup;
+			children = (
+				7940732D1BC4A1E1003B0150 /* QuickUISketch.h */,
+				794073491BC4A208003B0150 /* QuickImageSketchView.swift */,
+				7940732F1BC4A1E1003B0150 /* Info.plist */,
+			);
+			path = QuickUISketch;
+			sourceTree = "<group>";
+		};
+		7940733A1BC4A1E1003B0150 /* QuickUISketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				7940733B1BC4A1E1003B0150 /* QuickUISketchTests.swift */,
+				7940733D1BC4A1E1003B0150 /* Info.plist */,
+			);
+			path = QuickUISketchTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		794073281BC4A1E1003B0150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7940732E1BC4A1E1003B0150 /* QuickUISketch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		794072F41BC3931E003B0150 /* Quick Demo For GT */ = {
@@ -135,10 +230,12 @@
 				794072F11BC3931E003B0150 /* Sources */,
 				794072F21BC3931E003B0150 /* Frameworks */,
 				794072F31BC3931E003B0150 /* Resources */,
+				794073471BC4A1E2003B0150 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7940733F1BC4A1E2003B0150 /* PBXTargetDependency */,
 			);
 			name = "Quick Demo For GT";
 			productName = "Quick Demo For GT";
@@ -181,12 +278,50 @@
 			productReference = 794073141BC3931E003B0150 /* Quick Demo For GTUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7940732A1BC4A1E1003B0150 /* QuickUISketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794073461BC4A1E2003B0150 /* Build configuration list for PBXNativeTarget "QuickUISketch" */;
+			buildPhases = (
+				794073261BC4A1E1003B0150 /* Sources */,
+				794073271BC4A1E1003B0150 /* Frameworks */,
+				794073281BC4A1E1003B0150 /* Headers */,
+				794073291BC4A1E1003B0150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickUISketch;
+			productName = QuickUISketch;
+			productReference = 7940732B1BC4A1E1003B0150 /* QuickUISketch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		794073331BC4A1E1003B0150 /* QuickUISketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794073481BC4A1E2003B0150 /* Build configuration list for PBXNativeTarget "QuickUISketchTests" */;
+			buildPhases = (
+				794073301BC4A1E1003B0150 /* Sources */,
+				794073311BC4A1E1003B0150 /* Frameworks */,
+				794073321BC4A1E1003B0150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794073371BC4A1E1003B0150 /* PBXTargetDependency */,
+				794073391BC4A1E1003B0150 /* PBXTargetDependency */,
+			);
+			name = QuickUISketchTests;
+			productName = QuickUISketchTests;
+			productReference = 794073341BC4A1E1003B0150 /* QuickUISketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		794072ED1BC3931E003B0150 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = goldunderknees;
 				TargetAttributes = {
@@ -198,6 +333,13 @@
 						TestTargetID = 794072F41BC3931E003B0150;
 					};
 					794073131BC3931E003B0150 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 794072F41BC3931E003B0150;
+					};
+					7940732A1BC4A1E1003B0150 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					794073331BC4A1E1003B0150 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 794072F41BC3931E003B0150;
 					};
@@ -219,6 +361,8 @@
 				794072F41BC3931E003B0150 /* Quick Demo For GT */,
 				794073081BC3931E003B0150 /* Quick Demo For GTTests */,
 				794073131BC3931E003B0150 /* Quick Demo For GTUITests */,
+				7940732A1BC4A1E1003B0150 /* QuickUISketch */,
+				794073331BC4A1E1003B0150 /* QuickUISketchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +372,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794073031BC3931E003B0150 /* LaunchScreen.storyboard in Resources */,
 				794073001BC3931E003B0150 /* Assets.xcassets in Resources */,
 				794072FE1BC3931E003B0150 /* Main.storyboard in Resources */,
 			);
@@ -248,6 +391,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		794073291BC4A1E1003B0150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794073321BC4A1E1003B0150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -255,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794072FB1BC3931E003B0150 /* ViewController.swift in Sources */,
+				794072FB1BC3931E003B0150 /* TheMenuTransitioningDemo.swift in Sources */,
 				794072F91BC3931E003B0150 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +433,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		794073261BC4A1E1003B0150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7940734A1BC4A208003B0150 /* QuickImageSketchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794073301BC4A1E1003B0150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7940733C1BC4A1E1003B0150 /* QuickUISketchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +462,21 @@
 			target = 794072F41BC3931E003B0150 /* Quick Demo For GT */;
 			targetProxy = 794073151BC3931E003B0150 /* PBXContainerItemProxy */;
 		};
+		794073371BC4A1E1003B0150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7940732A1BC4A1E1003B0150 /* QuickUISketch */;
+			targetProxy = 794073361BC4A1E1003B0150 /* PBXContainerItemProxy */;
+		};
+		794073391BC4A1E1003B0150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794072F41BC3931E003B0150 /* Quick Demo For GT */;
+			targetProxy = 794073381BC4A1E1003B0150 /* PBXContainerItemProxy */;
+		};
+		7940733F1BC4A1E2003B0150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7940732A1BC4A1E1003B0150 /* QuickUISketch */;
+			targetProxy = 7940733E1BC4A1E2003B0150 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -298,14 +486,6 @@
 				794072FD1BC3931E003B0150 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		794073011BC3931E003B0150 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				794073021BC3931E003B0150 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Quick Demo For GT/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goldunderknees.Quick-Demo-For-GT";
@@ -409,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Quick Demo For GT/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goldunderknees.Quick-Demo-For-GT";
@@ -464,6 +646,69 @@
 			};
 			name = Release;
 		};
+		794073421BC4A1E2003B0150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickUISketch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.QuickUISketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		794073431BC4A1E2003B0150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickUISketch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.QuickUISketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		794073441BC4A1E2003B0150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuickUISketchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.QuickUISketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Demo For GT.app/Quick Demo For GT";
+			};
+			name = Debug;
+		};
+		794073451BC4A1E2003B0150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuickUISketchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.QuickUISketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Demo For GT.app/Quick Demo For GT";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -483,6 +728,7 @@
 				7940731F1BC3931E003B0150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794073201BC3931E003B0150 /* Build configuration list for PBXNativeTarget "Quick Demo For GTTests" */ = {
 			isa = XCConfigurationList;
@@ -491,12 +737,30 @@
 				794073221BC3931E003B0150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794073231BC3931E003B0150 /* Build configuration list for PBXNativeTarget "Quick Demo For GTUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				794073241BC3931E003B0150 /* Debug */,
 				794073251BC3931E003B0150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794073461BC4A1E2003B0150 /* Build configuration list for PBXNativeTarget "QuickUISketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794073421BC4A1E2003B0150 /* Debug */,
+				794073431BC4A1E2003B0150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		794073481BC4A1E2003B0150 /* Build configuration list for PBXNativeTarget "QuickUISketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794073441BC4A1E2003B0150 /* Debug */,
+				794073451BC4A1E2003B0150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

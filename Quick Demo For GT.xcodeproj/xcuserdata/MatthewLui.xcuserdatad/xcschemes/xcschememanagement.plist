@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>QuickUISketch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>794073131BC3931E003B0150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7940732A1BC4A1E1003B0150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>794073331BC4A1E1003B0150</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Quick Demo For GT.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "794073331BC4A1E1003B0150"
+               BuildableName = "QuickUISketchTests.xctest"
+               BlueprintName = "QuickUISketchTests"
+               ReferencedContainer = "container:Quick Demo For GT.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
